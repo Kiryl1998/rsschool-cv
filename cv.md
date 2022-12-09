@@ -41,3 +41,16 @@ describe("Multiply", () => {
 
 ---
 
+## Education
+* self-medication
+    * html
+    * css
+    * GitHub
+
+---
+
+## Languages
+
+* Russian - native speaker
+* Polish - A2(B1 in process)
+* English -A2(B1 in process)
