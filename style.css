@@ -1,0 +1,147 @@
+body {
+  box-sizing: border-box;
+}
+.main-container {
+  margin: auto;
+  width: 60%;
+  height: ;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+.header {
+  margin: auto;
+  height: 250px;
+  margin-top: 5%;
+}
+.container-header {
+  justify-content: center;
+  width: auto;
+  height: 200px;
+  display: flex;
+}
+.myFoto {
+  width: 100px;
+  height: 200px;
+  margin-top: 10px;
+}
+.about-me {
+  margin-left: 150px;
+  padding-top: 15px;
+}
+.nav {
+  margin-left: 10%;
+  margin-top: 7%;
+}
+li {
+  list-style-type: none;
+}
+ul {
+}
+a {
+  text-decoration: none;
+}
+.block-list-1 {
+  display: inline;
+  padding-left: 30px;
+}
+
+.Picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 15%;
+  box-shadow: 12px 12px 2px 1px #808080;
+}
+.main {
+  margin: auto;
+  width: 80%;
+  padding-top: 5%;
+}
+.Contacts-section {
+  display: flex;
+  margin: auto;
+  margin-top: 5%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.Contacts {
+  margin-top: 3%;
+}
+.block-list-2 {
+  margin-left: 15%;
+}
+.skills-section {
+  display: flex;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 5%;
+}
+.Skills {
+  margin-top: 2%;
+}
+.block-list-3 {
+  margin-left: 14%;
+}
+.Code-section {
+  display: flex;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 5%;
+}
+.Code {
+  margin-top: 13%;
+}
+.text-code {
+  margin-left: 16%;
+  background-color: #808080;
+  border-radius: 45%;
+}
+.Project-section {
+  display: flex;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 5%;
+}
+.Project {
+}
+.Project-list {
+  margin-left: 23%;
+  margin-top: 4%;
+}
+.Education-section {
+  display: flex;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 5%;
+}
+.Education {
+}
+.block-list-4{
+  margin-left: 13%;
+}
+.Languages-section{
+  display: flex;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.Languages{
+  margin-top: 2%;
+}
+
+.block-list-5{
+  margin-left: 12%;
+}
+.footer{
+  display: flex;
+}
+.footer-container{
+  width: 100px;
+  height: 50px;
+  margin-left: 70%;
+}

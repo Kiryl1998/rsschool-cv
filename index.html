@@ -1,12 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
-</head>
-<body>
-   hello
+    <link rel="stylesheet" href="./style.css">
+    <title>CV</title>
+  </head>
+  <body>
+
+    <div class="main-container">
+      <div class="header">
+        <div class="container-header">
+          <div class="myFoto">
+            <img class="Picture" src="assets/img/jpg/iam.jpg" alt="Foto">
+          </div>
+          
+          <div class="about-me" id="about">
+            <h1>Kiryl Salauyou</h1>
+            <p>
+              My name is Kirill, I am 24 years old, I live in Poland, the city
+              of Gdansk.
+            </p>
+            <p>I work in Jusz as a Courier.</p>
+            <p>I want to become an IT specialist</p>
+          </div>
+        </div>
+
+        <div class="nav">
+          <ul>
+            <li class="block-list-1"><a href="#Contacts">Contacts</a></li>
+            <li class="block-list-1"><a href="#about">About me</a></li>
+            <li class="block-list-1"><a href="#Skills">Skills</a></li>
+            <li class="block-list-1"><a href="#Code">Code</a></li>
+            <li class="block-list-1"><a href="#Project">Projects</a></li>
+            <li class="block-list-1"><a href="#Education">Education</a></li>
+            <li class="block-list-1"><a href="#Languages">Languages</a></li>
+          </ul>
+        </div>
+      </div>
+
+    <div class="main">
+
+      <div class="Contacts-section" id="Contacts">
+        <div class="Contacts"><h2>Contacts</h2></div>
+        <div class="block-list-2">
+        <ul>
+          <li>Phone: +(48) 731-220-722</li>
+          <li><a href="https://t.me/Kiryl1998">Telegram</a></li>
+          <li><a href="https://github.com/Kiryl1998">GitHub</a></li>
+          <li>E-mail: Kirill.solovev199888@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="skills-section" id="Skills">
+      <div class="Skills"><h2>My Skills</h2>
+      </div>
+      <div class="block-list-3">
+        <ul>
+          <li>Html</li>
+          <li>Css</li>
+          <li>Git</li>
+        </ul>
+    </div>
+  </div>
+
+  <div class="Code-section" id="Code">
+    <div class="Code"><h2>Code</h2></div>
+    <div class="text-code">
+      <pre>
+        <code>
+          const assert = require("chai").assert;
+
+          describe("Multiply", () => 
+            it("fixed tests", () =>
+              assert.strictEqual(multiply(1,1), 1);
+              assert.strictEqual(multiply(2,1), 2);
+              assert.strictEqual(multiply(2,2), 4);
+              assert.strictEqual(multiply(3,5), 15);   
+            });
+          });
+        </code>
+      </pre>
+    </div>
+  </div>
+
+  <div class="Project-section" id="Project">
+    <div class="Project"><h2>Project</h2></div>
+    <div class="Project-list"><a href="https://Kiryl1998.github.io/rsschool-cv/cv">My CV(markdown)</a></div>
+  </div>
+
+  <div class="Education-section" id="Education">
+    <div class="Education"><h2>Education</h2></div>
+    <div class="block-list-4">
+      <ul>
+      <li><a href="https://www.gstu.by/">Gomel State Technical University</a></li>
+      <li><a href="https://rs.school/js-stage0/">Rs School</a></li>
+    </ul>
+    </div>
+  </div>
+
+  <div class="Languages-section" id="Languages">
+    <div class="Languages"><h2>Languages</h2></div>
+  <div class="block-list-5">
+    <ul>
+      <li>Russian - native speaker</li>
+      <li>Polish - A2(B1 in process)</li>
+      <li>English -A2(B1 in process)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="">© 2022 <a href="https://github.com/Kiryl1998">Kiryl1998</a></div>
+  <div class="footer-container">
+    <a href="https://rs.school/js/"><img src="assets/img/svg/rs_school_js.svg" alt="Logo"></a>
+  </div>
+</div>
+</div>
+</div>
+
+
 </body>
 </html>
